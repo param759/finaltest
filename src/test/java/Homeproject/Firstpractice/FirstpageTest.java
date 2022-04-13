@@ -24,4 +24,10 @@ public WebDriver driver;
 	Initialpage work=new Initialpage(driver);
 	work.threedots().click();
 	}
+	
+	@Test
+	public void newissue()
+	{
+		System.out.println("new issue created");
+	}
 }
