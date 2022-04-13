@@ -29,4 +29,9 @@ public WebDriver driver;
 	{
 		System.out.println("work is done");
 	}
+	@Test
+	public void worknotdone()
+	{
+		System.out.println("work not done");
+	}
 }
