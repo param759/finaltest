@@ -24,4 +24,9 @@ public WebDriver driver;
 	Initialpage work=new Initialpage(driver);
 	work.threedots().click();
 	}
+	@Test
+	public void workdone()
+	{
+		System.out.println("work is done");
+	}
 }
